@@ -10,6 +10,10 @@ namespace clockRadioAssignment
     {
         static void Main(string[] args)
         {
+            Person Joe = new Person();
+            ClockRadio Capello = new ClockRadio();
+            Joe.DecideToViewOrChange(Capello);
+            Console.ReadKey();
         }
     }
 }
